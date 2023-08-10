@@ -851,7 +851,7 @@ PrefabInstance:
     - target: {fileID: 589950219817189215, guid: 4c15f5a8bc51f8d47a82393ab8d4768b,
         type: 3}
       propertyPath: InitialModule.startSize.scalar
-      value: 0.1
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 589950219817189215, guid: 4c15f5a8bc51f8d47a82393ab8d4768b,
         type: 3}
@@ -866,12 +866,12 @@ PrefabInstance:
     - target: {fileID: 589950219817189215, guid: 4c15f5a8bc51f8d47a82393ab8d4768b,
         type: 3}
       propertyPath: InitialModule.startSize.minScalar
-      value: 0.05
+      value: 0.01
       objectReference: {fileID: 0}
     - target: {fileID: 589950219817189215, guid: 4c15f5a8bc51f8d47a82393ab8d4768b,
         type: 3}
       propertyPath: TrailModule.widthOverTrail.scalar
-      value: 0.2
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 589950219817189215, guid: 4c15f5a8bc51f8d47a82393ab8d4768b,
         type: 3}
@@ -926,7 +926,7 @@ PrefabInstance:
     - target: {fileID: 589950219817189215, guid: 4c15f5a8bc51f8d47a82393ab8d4768b,
         type: 3}
       propertyPath: TrailModule.widthOverTrail.minScalar
-      value: 0.05
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 589950219817189215, guid: 4c15f5a8bc51f8d47a82393ab8d4768b,
         type: 3}
@@ -1116,7 +1116,7 @@ PrefabInstance:
     - target: {fileID: 2797786918439734223, guid: 4c15f5a8bc51f8d47a82393ab8d4768b,
         type: 3}
       propertyPath: m_RenderMode
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2797786918439734223, guid: 4c15f5a8bc51f8d47a82393ab8d4768b,
         type: 3}
@@ -1126,7 +1126,12 @@ PrefabInstance:
     - target: {fileID: 2797786918439734223, guid: 4c15f5a8bc51f8d47a82393ab8d4768b,
         type: 3}
       propertyPath: m_LengthScale
-      value: 10
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2797786918439734223, guid: 4c15f5a8bc51f8d47a82393ab8d4768b,
+        type: 3}
+      propertyPath: m_VelocityScale
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2797786918439734223, guid: 4c15f5a8bc51f8d47a82393ab8d4768b,
         type: 3}
@@ -1147,7 +1152,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 24f47d79bb32e3347b0751d821577928, type: 2}
+      objectReference: {fileID: 2100000, guid: e4b32a82fb2d64648999153bb83e2d11, type: 2}
     - target: {fileID: 2797786918439734223, guid: 4c15f5a8bc51f8d47a82393ab8d4768b,
         type: 3}
       propertyPath: m_Materials.Array.data[1]
@@ -1268,7 +1273,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sucking
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6811358506392242604, guid: 4c15f5a8bc51f8d47a82393ab8d4768b, type: 3}
     m_RemovedGameObjects:
     - {fileID: 726166997392364487, guid: 4c15f5a8bc51f8d47a82393ab8d4768b, type: 3}
     m_AddedGameObjects: []
